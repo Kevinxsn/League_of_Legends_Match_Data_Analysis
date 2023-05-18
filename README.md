@@ -60,4 +60,4 @@ Hypothesis test & test statistics : Same as previous one, the approach we use is
 After repeating the test 10000 times, here is whaat we get:
 <iframe src="assets/fig_hyp2_affected.html" width=800 height=600 frameBorder=0></iframe>
 
-Our P value is aound (0.015), even though it is close, but we can not reject our null hypothesis and ca not conclude that the outage happend in the west region affect more people compared with all of the regions in the US. 
+Our P value is aound (0.015), even though it is close, but we can not reject our null hypothesis and can not conclude that the outage happend in the west region affect more people compared with all of the regions in the US. 
