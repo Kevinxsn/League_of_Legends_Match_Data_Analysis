@@ -46,8 +46,6 @@ After repeating the test 10000 times, here is whaat we get:
 Our P value is aound (0.0004), we can rejecte the null hypothesis and conclude that outage durations in the West region are shorter than those experienced nationwide. We are expcted to have a shorter duration of power outage if we are in the west!
 
 
-## Hypothesis Testing
-
 ### Hypothesis Testing with column 'CUSTOMER.AFFECTED'
 
 Introducton: The second part of our research question is to understand the influence of demographic factors on the population affected on each outage. In another words, we are interested at figure out if each outage happened in the west affect more people compared with the the area of the whole country, since it seems like there are lot of people densed aread in the west. Similar with the previous one, our approach begins by selecting data specifically related to the 'west' climate region. By calculating the number of people affected in the West region and comparing it to the mnumber across the entire country, we are able to discern notable differences.
