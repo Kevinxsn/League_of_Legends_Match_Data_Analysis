@@ -4,7 +4,7 @@
 The concept of Not Missing At Random (NMAR) implies that the probability of a value being missing is dependent on the actual missing value itself. In the context of this dataset, the column in question records the names of hurricanes responsible for specific power outages. However, it is important to note that not all power outages can be attributed to hurricanes. Some outages may result from facility maintenance or other natural disasters.
 Consequently, if a particular power outage is not caused by a hurricane, it is reasonable for the corresponding cell in the hurricane column to be missing. Incorporating an additional column, such as one that records the amount of rainfall during the corresponding time period, could provide further context. For instance, if the rainfall amount is significantly higher than usual, it is more likely that a hurricane is responsible for the power outage, and thus, the hurricane name column would be shown as NaN. 
 
-'|   HURRICANE.NAMES |\n|------------------:|\n|               nan |\n|               nan |\n|               nan |\n|               nan |\n|               nan |'
+|   HURRICANE.NAMES |\n|------------------:|\n|               nan |\n|               nan |\n|               nan |\n|               nan |\n|               nan |
 
 ### Missingness Test 1
 In this test, we try to find out if the missingness in 'CUSTOMERS.AFFECTED' column is depend on the the column 'CAUSE.CATEGORY' or not. The 'CUSTOMERS.AFFECTED' column represent the number of people who are affected by the each of power shortage, and 'CAUSE.CATEGORY' represent the the category that caused this power shortage. Before we get start, lets have a look at what we can observed from the ditribution of the missingness. 
